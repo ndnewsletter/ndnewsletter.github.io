@@ -1,0 +1,300 @@
+body {
+ background-image: url(images/logos/whitestitches.png);
+ background-repeat: repeat;
+}
+
+.style {
+  text-align: center;
+}
+
+/*Notre Dame Header*/
+.nav1{
+	background-color: #001c3d; /*Color of ND Header Background*/
+	margin-bottom:0px;
+}
+
+/*Main Navigation Tool*/
+.nav2 {
+	background-color:white; /*Color of NavBar Background*/
+    margin-bottom:0px;
+    padding-bottom:0;
+    border-bottom-color:#001c3d;
+}
+
+/*Blue Divider Header*/
+.nav3{
+	background-color: #001c3d; /*Color of ND Header Background*/
+	margin-bottom:0px;
+  max-height:2px;
+  min-height:3px;
+}
+
+/*Blue Divider Header*/
+.nav4{
+  background-color: #001c3d; /*Color of ND Header Background*/
+  margin-bottom:0px;
+  max-height:2px;
+  min-height:3px;
+}
+
+/*Dropdown Custom Styles*/
+.dropdown-toggle{
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-weight: 700;
+   font-size:20px;
+   color:#001834; /*Color of Text*/
+}
+
+/*Collapse-Hamburger Button*/
+ .icon-bar {
+   background-color:#001834 !important;
+ }
+
+/*Dropdown Menu Style*/
+.dropdown-menu li{
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-weight: 400;
+   font-size:16px;
+   color:#001834;
+}
+/*Toggle button Hover Color*/
+.dropdown-toggle:hover, .open .dropdown-toggle 
+{
+	color:#001834; /*Color of Text when hovered*/
+}
+
+.SubmitButtonText{
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-weight: 700;
+   font-size:20px;
+   color:#001834; /*Color of Text*/
+}
+
+/*Search Box Border Custom Styles*/
+.round {
+    width: 150px;
+    height: 28px;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 10px 5px 10px; /*Position of the Text block in Search*/
+    font-size:13px;
+    border-color:#6a6a6a;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+/*Search Box Position Style*/
+.search {
+    width: 190px;
+    height: 50px;
+    padding-left:12px;
+    padding-top:12px;
+    padding-bottom:0px;
+
+}
+/*Removes Blue Outline from Search box*/
+input:focus {
+    outline:none;
+}
+
+/*Magnifying Glass Image-Glyphicon*/
+.glyphicon
+{
+	border: 0 none !important;
+	text-decoration: none !important;
+    top: -27px;
+    left: 123px;
+    height: 25px;
+    width: 25px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+
+/*Main Headers Font*/
+.categoryHeader {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  font-size:35px;
+  color: #001834;
+  padding-top:10px;
+  text-align:left;
+}
+
+/*Container: Header Division Lines*/
+.outlineHeader{
+	height:2px;
+	width:600px;
+	border:4px solid #001834;
+  min-width:100%;
+}
+
+/*Subject Title - Trending Now*/
+.subjectTitle {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight:700;
+  font-size:23px;
+  color: #001834;
+  padding-top:2px;
+  padding-right:40px;
+  text-align:center;
+  padding-bottom:0px;
+}
+
+/*Category Text - Trending Now*/
+.wrapper {
+    position:relative;
+}
+.boxTrend {
+    /*Box Style*/
+    position:absolute;
+    top:195px;
+    left:0px;
+    width:165px;
+    height:30px;
+    border:2px solid #001c3d;
+    background-color:#001c3d;
+
+    /*Text Style*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    color:#ffffff;
+    text-align: center;
+}
+
+/*Remaining Mini-Carousels*/
+.box {
+    /*Box Style*/
+    position:absolute;
+    top:197px;
+    left:2px;
+    width:165px;
+    height:30px;
+    border:2px solid #001c3d;
+    background-color:#001c3d;
+
+    /*Text Style*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    color:#ffffff;
+    text-align: center;
+}
+
+/*Remaining Mini-Carousels*/
+.boxA {
+    /*Box Style*/
+    position:absolute;
+    top:197px;
+    left:2px;
+    width:198px;
+    height:30px;
+    border:2px solid #001c3d;
+    background-color:#001c3d;
+
+    /*Text Style*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    color:#ffffff;
+    text-align: center;
+}
+
+/*Footer Font*/
+.vcard{
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-weight: 400;
+   font-size:20px;
+   color:#001834;
+   padding-top:30px;
+   text-align:center;
+}
+
+/* CUSTOMIZE THE CAROUSEL (MAIN EVENTS)
+-------------------------------------------------- */
+/* Carousel base class */
+ .carousel {
+  top:0;
+  height: 250px;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+/* Declare heights because of positioning of img element */
+/*This portion crops the carousel image; the index.html size re-sizes image.*/
+ .carousel .item {
+  height: 250px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 250px;
+}
+
+#summary1
+{
+    /*Text Style*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size:26px;
+    color:#001c3d;
+
+    /*Positioning*/
+    margin-top:60px;
+    margin-left:20px;
+}
+
+#summary2
+{
+    /*Text Style*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size:26px;
+    color:#001c3d;
+
+    /*Positioning*/
+    margin-top:0px;
+    margin-left:20px;
+}
+
+#summary3
+{
+    /*Text Style*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    color:#001c3d;
+
+    /*Positioning*/
+    margin-top:20px;
+    margin-left:0px;
+}
+
+#summary4
+{
+    /*Text Style*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size:19px;
+    color:#001c3d;
+
+    /*Positioning*/
+    margin-top:20px;
+    margin-left:0px;
+}
+
+#summary5
+{
+    /*Text Style*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size:18px;
+    color:#001c3d;
+
+    /*Positioning*/
+    margin-top:0px;
+    margin-left:0px;
+}
